@@ -1,0 +1,1 @@
+docker compose --file docker-compose.yml -p ignite_call_backend down

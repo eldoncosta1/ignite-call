@@ -1,4 +1,4 @@
-import NextAuth from "next-auth";
+import "next-auth";
 
 declare module "next-auth" {
   export interface User {
@@ -6,6 +6,10 @@ declare module "next-auth" {
     name: string;
     email: string;
     username: string;
-    avatarUrl: string
+    avatarUrl: string;
+  }
+
+  interface Session {
+    user: User;
   }
 }

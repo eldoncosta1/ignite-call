@@ -8,10 +8,11 @@
     "start": "next start",
     "lint": "next lint",
     "migrate:dev": "npx prisma migrate dev",
-    "prisma:studio": "npx prisma studio"
+    "prisma:studio": "npx prisma studio",
+    "npm-check-updates": "npx ncu -i --format group"
   },
   "dependencies": {
-    "@eldoncosta-ui/react": "^3.0.0",
+    "@eldoncosta-ui/react": "^3.0.1",
     "@hookform/resolvers": "^3.1.0",
     "@prisma/client": "^4.15.0",
     "@types/node": "20.2.5",
