@@ -10,7 +10,8 @@
     "migrate:dev": "npx prisma migrate dev",
     "prisma:studio": "npx prisma studio",
     "deploy:database": "npx prisma db push",
-    "npm-check-updates": "npx ncu -i --format group"
+    "npm-check-updates": "npx ncu -i --format group",
+    "postinstall": "prisma generate"
   },
   "dependencies": {
     "@eldoncosta-ui/react": "^3.0.1",
