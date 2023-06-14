@@ -9,4 +9,4 @@ services:
       MYSQL_ROOT_PASSWORD: docker
       MYSQL_DATABASE: ignite_call
     ports:
-      - '3306:3306'
+      - '3310:3306'
